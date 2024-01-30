@@ -68,3 +68,30 @@ option {
     background-color: rgb(53, 53, 53);
     padding: 12px;
 }
+
+table {
+    width: 80%;
+    margin: 6px auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+thead th {
+    background-color: rgb(187, 236, 220);
+    border: 1px solid cornflowerblue;
+    font-size: 16px;
+
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgb(230, 181, 163);
+}
+
+tbody tr:nth-child(odd) {
+    background-color: blanchedalmond;
+}
+
+td {
+    border: 1px solid rgb(100, 198, 237);
+    padding: 6px;
+}
